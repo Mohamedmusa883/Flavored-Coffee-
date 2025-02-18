@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coffee Landing Page</title>
+  <!-- ربط ملف التنسيق -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- ========== HEADER / NAVBAR ========== -->
+  <header class="main-header">
+    <nav class="navbar">
+      <div class="brand">
+        <img src="img/logo.jpg" alt="Logo" class="logo" width="50" height="50" />
+        <span class="brand-name">Flavored Coffee</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#app">App</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="cta-btn">Order Now</button>
+    </nav>
+  </header>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1>Coffee <br />The Best For You</h1>
+      <p class="hero-desc">
+        Discover the perfect blend of aroma and flavor.<br/>
+        Start your day with our signature coffees.
+      </p>
+      <div class="hero-buttons">
+        <button class="hero-btn">View Menu</button>
+        <button class="hero-btn alt">Learn More</button>
+      </div>
+    </div>
+    <div class="hero-image">
+      <!-- الصورة الكبيرة في أعلى الصفحة -->
+      <img src="img/латте, капучино, затрак, кофе.jpeg" alt="Coffee Cup" />
+    </div>
+  </section>
+
+  <!-- ========== MENU SECTION ========== -->
+  <section class="menu-section" id="menu">
+    <h2>Our Coffee Menu</h2>
+    <div class="coffee-cards">
+      <!-- البطاقة الأولى -->
+      <div class="coffee-card">
+        <img src="img/Moka o capsule_ Caffè americano o espresso_ Ad ognuno il suo caffè.jpeg" alt="Americano" />
+        <h3>Americano</h3>
+        <p>Rich and bold flavor for true coffee lovers.</p>
+        <span class="price">$2.50</span>
+      </div>
+      <!-- البطاقة الثانية -->
+      <div class="coffee-card">
+        <img src="img/cappuccino with milk.jpeg" alt="Cappuccino" />
+        <h3>Cappuccino</h3>
+        <p>Perfect balance of espresso, steamed milk & foam.</p>
+        <span class="price">$3.00</span>
+      </div>
+      <!-- البطاقة الثالثة -->
+      <div class="coffee-card">
+        <img src="img/Easy Espresso Recipes Master Your Morning Cup.jpeg" alt="Espresso" />
+        <h3>Espresso</h3>
+        <p>Strong and intense shot to kickstart your day.</p>
+        <span class="price">$2.00</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== INFO SECTION (LOREM IPSUM) ========== -->
+  <section class="info-section">
+    <div class="info-content">
+      <h2>Lorem Ipsum</h2>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s. 
+        It has survived not only five centuries, but also the leap into electronic typesetting, 
+        remaining essentially unchanged.
+      </p>
+    </div>
+    <div class="info-image">
+      <img src="img/_Dalgona Coffee_ by Stocksy Contributor _JChong Studio_.jpeg" alt="Coffee Art" />
+      <div class="price-tag">$3.50</div>
+    </div>
+  </section>
+
+  <!-- ========== APP SECTION ========== -->
+  <section class="app-section" id="app">
+    <div class="app-text">
+      <h2>App is Available</h2>
+      <p>
+        Order your favorite coffee anytime, anywhere. 
+        Download our mobile app for exclusive rewards, easy ordering, and more!
+      </p>
+      <button class="download-btn">Download App</button>
+    </div>
+    <div class="app-image">
+      <img src="img/download.jpeg" alt="App Mockup" />
+    </div>
+  </section>
+
+  <!-- ========== RESERVATION SECTION ========== -->
+  <section class="reservation-section" id="contact">
+    <h2>Want to Reserve a Table?</h2>
+    <p>
+      Book your spot in advance and enjoy our cozy atmosphere.
+    </p>
+    <form class="reservation-form">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="Your Name" required/>
+      </div>
+      <div class="form-group">
+        <label for="date">Date</label>
+        <input id="date" type="date" required/>
+      </div>
+      <div class="form-group">
+        <label for="time">Time</label>
+        <input id="time" type="time" required/>
+      </div>
+      <div class="form-group">
+        <label for="guests">Guests</label>
+        <input id="guests" type="number" min="1" value="1" required/>
+      </div>
+      <button type="submit" class="reserve-btn">Reserve Now</button>
+    </form>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="main-footer">
+    <div class="footer-links">
+      <div>
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="#">Coffee Beans</a></li>
+          <li><a href="#">Equipment</a></li>
+          <li><a href="#">Delivery</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Our Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Address</h4>
+        <p>123 Coffee St.<br/>Flavor Town, 00000</p>
+      </div>
+    </div>
+    <p class="footer-copy">&copy; 2025 Flavored Coffee. All rights reserved.</p>
+  </footer>
+
+  <!-- ربط ملف الجافاسكربت -->
+  <script src="java/scrpt.js"></script>
+</body>
+</html>
